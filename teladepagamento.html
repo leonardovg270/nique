@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamento</title>
+    <link rel="stylesheet" href="styleteladepagamento.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="inicio.html" id="voltar" onclick="volta()">⇦</a>
+        </nav>
+    </header>
+    <div class="caixa1">
+        <div class="infoContainer">
+            <h2>Detalhes do Produto</h2>
+            <p>Produto: <span id="produtoNome"></span></p>
+            <p>Valor: R$<span id="produtoValor"></span></p>
+        </div>
+        <div class="formulario">
+            <form action="">
+                <div class="cartaoInfo">
+                    <label for="numDoCartao" id="estiNumCartao">Número do Cartão</label>
+                        <input type="number" placeholder=" 0000 0000 0000 0000" id="numDoCartao">
+                    <label for="nomeTitular">Nome do Titular</label>
+                        <input type="text" placeholder=" Nome do Titular" id="nomeTitular">
+                        <div class="CVVeVencimento">
+                            <label for="CVV">CVV</label>
+                                <input type="number"  placeholder="000" id="CVV">
+                            <label for="vencimentoCartao" id="stiloVencimento">Vencimento</label>
+                                <input type="number" placeholder="MM/AA" id="vencimentoCartao">
+                        </div>
+                </div>
+
+                <label for="numParcelas" ></label>
+                <select name="parcelas" id="parcelas">
+                    <option value="0">Numero de Parcelas:</option>
+                        
+                </select>
+
+                <!--DESABILITADO-->
+                <div class="opcoesPagamento">
+                    <label for="boleto">.
+                        <input type="radio" id="boleto" name="opcaoPagamento" >
+                    </label>
+                    <label for="cartao">.
+                        <input type="radio" id="cartao" name="opcaoPagamento" >
+                    </label>
+                    <label for="pix">.
+                        <input type="radio" id="pix" name="opcaoPagamento" >
+                    </label>
+                </div>
+            </form>
+            <button id="concluir" onclick="concluirCompra()">CONCLUIR</button>
+        </div>
+    </div>
+    <div id="fim">
+        <h1>Compra concluída!</h1>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
