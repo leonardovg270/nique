@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Josefin+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Josefin+Sans:wght@300&display=swap');
+
+
+body {
+    background-color: #f5f5f5;
+    overflow-x: hidden;
+}
+
+nav {
+    display: flex;
+    padding:15px;
+}
+
+nav a {
+    text-decoration: none;
+    margin-left: 10px;
+    margin-top: 7px;
+    font-size: 30px;
+    color: rgb(255, 136, 0);
+}
+
+nav a:hover {
+    color: black;
+}
+
+nav {
+    position: absolute;
+}
+
+.back {
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 280px;
+    margin-top: 0px;
+    margin-left: 500px;
+    color: rgb(232, 232, 232);
+}
+
+.info {
+    display: flex;
+    justify-content: right;
+}
+
+.info img {
+    width: 550px;
+    height: 550px;
+    margin-top: 40px;
+    margin-right: 70px;
+    transform: rotate(-20deg);
+}
+
+.infor {
+    position: absolute;
+    margin-top: -450px;
+    margin-left: 250px;
+}
+
+.infor h1 {
+    font-weight: bold;
+    color: rgb(255, 157, 0);
+    font-size: 30px;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.infor h1 span {
+    font-weight: bold;
+    color: rgb(36, 160, 218);
+    font-family: sans-serif;
+    font-size: 60px;
+    margin-top: -20px;
+}
+
+.infor p {
+    font-size: 13px;
+    margin-top: 25px;
+    margin-left: 5px;
+    color: rgb(56, 56, 56);
+    font-family: 'Comfortaa', sans-serif;
+}
+
+#comprarAeroflex  {
+    background-color: rgb(255, 153, 0);
+    background-image: linear-gradient(rgb(255, 158, 47), rgb(255, 119, 0));
+    color: white;
+    padding: 15px 80px;
+    border: none;
+    border-radius: 70px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.infor img {
+    cursor: pointer;
+    position: absolute;
+    width: 30px;
+    margin-top: 10px;
+    margin-left: -46px;
+    background-color: white;
+    padding: 5px 20px 5px 20px;
+    border-style: solid;
+    border-radius: 70px ;
+    border-color: rgb(255, 119, 0) ;
+}
+
+.infor h2 {
+    font-family: sans-serif;
+    font-size: 35px;
+}
