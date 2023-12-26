@@ -45,50 +45,6 @@ form label img{
     display: none;
 }
 
-form input[type="radio"] {
-    appearance: none;
-    width: 60px;
-    height: 60px;
-    border-radius: 5%;
-    outline: none;
-    cursor: pointer;
-    background-size: 50px;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-right: 5px;
-}
-
-input[type="radio"]:checked {
-    background-color: #e5e5e5;
-}
-input[type="radio"]#boleto {
-    background-image: url('/iconesImagens/boleto-icon.png');
-}
-
-input[type="radio"]#cartao {
-    background-image: url('/iconesImagens/cartao_\ icon.png');
-}
-
-input[type="radio"]#pix {
-    background-image: url('/iconesImagens/pix\ icon.png'); 
-}
-
-.opcoesPagamento {
-    border: 1px solid black;
-    border-radius: 5px;
-    display: inline-flex;
-    padding: 5px 50px 5px 5px;
-    margin-left: 460px;
-}
-
-.boleto {
-    font-family: 'Comfortaa',sans-serif;
-    text-align:center ;
-}
-
-.opcoesPagamento {
-    display: none;
-}
 
 .cartaoInfo {
     margin-left: 100px;
@@ -191,5 +147,27 @@ input[type="radio"]#pix {
     padding: 50px 100px;
     text-align: center;
     border-radius: 15px;
-    box-shadow: 0px 0px 150px rgb(105, 105, 105);
+    box-shadow: 0px 0px 150px rgb(151, 151, 151);
+}
+
+@media(max-width:674px) {
+    .infoContainer {
+        margin-left: -225px;
+        margin-top: -50px;
+    }
+
+    .formulario {
+        margin-left: -325px;
+    }
+
+    .caixa1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #fim{
+        margin-top: -600px;
+        margin-left: -442px;
+        padding: 300px 500px;
+    }
 }

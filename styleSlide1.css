@@ -109,3 +109,61 @@ nav {
     font-family: sans-serif;
     font-size: 35px;
 }
+
+@media(max-width:674px) {
+
+    .info img {
+        width: 350px;
+        height: 350px;
+        margin-top: 50px;
+        transform: none;
+    }
+
+    .infor {
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+
+    .infor h1 {
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .infor h1 span {
+        font-size: 50px;
+        margin-top: -28px;
+        margin-left: 15px;
+    }
+
+    .infor p {
+        font-size: 10px;
+        margin-top: 20px;
+        margin-left: 5px;
+        color: rgb(56, 56, 56);
+        font-family: 'Comfortaa', sans-serif;
+        margin-left: 25px;
+    }
+
+    .infor h2 {
+        font-size: 30px;
+        margin-left: 25px;
+    }
+
+    #comprarAeroflex {
+        padding: 15px 180px 15px 120px;
+        margin-top: 10px;
+        margin-left: -20px;
+    }
+
+    .infor img {
+        width: 30px;
+        margin-top: 10px;
+        margin-left: -82px;
+        padding: 5px 40px 5px 40px;
+        border-style: solid;
+        border-radius: 70px ;
+        border-color: rgb(255, 119, 0) ;
+    }
+
+}
