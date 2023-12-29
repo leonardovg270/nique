@@ -171,29 +171,30 @@ nav {
 @media(max-width:500px) {
 
     .info {
-        margin-left: 480px;
+        margin-left: 425px;
     }
     .info img {
         width: 350px;
         height: 350px;
-        margin-top: 50px;
+        margin-top: 10px;
         transform: none;
     }
 
     .infor {
-        margin-top: 20px;
+        margin-top: 10px;
         margin-left: 50px;
     }
 
     .infor h1 {
-        font-size: 20px;
+        margin-left:-35px;
+        font-size: 18px;
         display: flex;
         justify-content: center;
     }
 
     .infor h1 span {
-        font-size: 50px;
-        margin-top: -28px;
+        font-size: 40px;
+        margin-top: -20px;
         margin-left: 15px;
     }
 
@@ -202,25 +203,27 @@ nav {
         margin-top: 20px;
         color: rgb(56, 56, 56);
         font-family: 'Comfortaa', sans-serif;
-        margin-left: 0;
+        margin-left: -20px;
     }
 
     .infor h2 {
         font-size: 30px;
-        margin-left: 0;
-    }
-
-    #comprarAeroflex {
-        padding: 15px 180px 15px 120px;
-        margin-top: 10px;
         margin-left: -20px;
     }
 
-    .infor img {
-        width: 30px;
+    #comprarAeroflex {
+        padding: 15px 120px 15px 120px;
         margin-top: 10px;
-        margin-left: -82px;
-        padding: 5px 40px 5px 40px;
+        margin-left: -25px;
+    }
+
+    .infor img {
+        display:flex;
+        flex-direction:column;
+        width: 30px;
+        margin-top: 5px;
+        margin-left: -21px;
+        padding: 3px 130px 3px 130px;
         border-style: solid;
         border-radius: 70px ;
         border-color: rgb(255, 119, 0) ;
