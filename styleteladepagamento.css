@@ -152,12 +152,13 @@ form label img{
 
 @media(max-width:674px) {
     .infoContainer {
-        margin-left: -225px;
+        margin-left: -310px;
         margin-top: -50px;
     }
 
     .formulario {
-        margin-left: -325px;
+        margin-top:20px;
+        margin-left: -410px;
     }
 
     .caixa1 {
